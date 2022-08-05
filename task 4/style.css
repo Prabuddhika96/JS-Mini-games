@@ -1,0 +1,14 @@
+#activities{
+    padding: 0 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#activities img{
+    margin: 1em auto;
+    width: 20em;
+}
+
+#activities div{
+    margin-top: 5em;
+}

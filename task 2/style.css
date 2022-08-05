@@ -1,0 +1,45 @@
+div{
+    margin: 10px 0;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 100%;
+}
+.square{
+    height: 60px;
+    width: 60px;
+    background-color: orange; 
+}
+.ellipse{
+    height: 60px;
+    width: 120px;
+    background-color: yellow; 
+    border-radius: 50%;
+}
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid blue;
+}
+.parallelogram {
+	width: 120px;
+	height: 60px;
+	transform: skew(20deg);
+	background: indigo;
+}
+.trapezoid {
+	border-bottom: 50px solid violet;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
